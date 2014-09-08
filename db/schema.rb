@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 20140906225233) do
 
   create_table "topics", force: true do |t|
     t.string   "topic"
-    t.integer  "integer"
+    t.integer  "location"
     t.boolean  "visibility"
     t.datetime "created_at"
     t.datetime "updated_at"
