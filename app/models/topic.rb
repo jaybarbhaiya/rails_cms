@@ -1,3 +1,3 @@
 class Topic < ActiveRecord::Base
-  has_one :topic_header
+  has_many :topic_headers
 end
